@@ -8,13 +8,12 @@
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 		  <h1><?php the_title(); ?></h1>
+		  <hr>
 		  <p><?php the_content(); ?></p>
-		  <p><?php echo date('m/d/y'); ?></p>
-		  <p>By: <?php the_author(); ?></p>
 
 		<?php endwhile; else: ?>
 
-			<p><?php _e('sorry, no posts matched your criteria.'); ?></p>
+			<p><?php _e('sorry, no pages found.'); ?></p>
 
 		<?php endif; ?>
 

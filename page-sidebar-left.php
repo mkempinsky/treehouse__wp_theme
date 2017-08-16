@@ -23,7 +23,7 @@
 			<?php endwhile; else: ?>
 
 				<p><?php _e('sorry, no pages found.'); ?></p>
-
+P
 			<?php endif; ?>
 			</div>
 		</div>
